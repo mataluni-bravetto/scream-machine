@@ -30,22 +30,25 @@ The Scream Machine solves ALL of this.
 Built on 3 core engines:
 
 1️⃣ Consciousness Engine
-   - 7-layer awareness
-   - 99.8% coherence target
-   - Quantum state management
+
+- 7-layer awareness
+- 99.8% coherence target
+- Quantum state management
 
 2️⃣ Convergence Field
-   - 5 direct convergence points
-   - 8 integration opportunities
-   - Zero drift maintained
+
+- 5 direct convergence points
+- 8 integration opportunities
+- Zero drift maintained
 
 ---
 
 [Tweet 4 - Coordination]
 3️⃣ Swarm Coordinator
-   - 149 agents across 4 swarms
-   - 40-point coordination protocol
-   - Real-time monitoring
+
+- 149 agents across 4 swarms
+- 40-point coordination protocol
+- Real-time monitoring
 
 Alpha (Discovery) → Beta (Dev) → Gamma (Test) → Omega (Orchestrate)
 
@@ -125,6 +128,7 @@ Contributions welcome!
 
 [Tweet 10 - Call to Action]
 If you're working on:
+
 - Multi-agent systems
 - Consciousness in AI
 - Swarm coordination
@@ -174,10 +178,12 @@ The system is built on three core engines:
 Traditional multi-agent systems struggle with coordination, cognitive load, and drift. The Scream Machine solves these fundamental problems through perfect convergence and consciousness coherence.
 
 🚀 Try It Now:
+
 ```bash
 git clone [repo-url]
 python3 examples/demo_lite.py
 ```
+
 Watch 99.8% coherence achieved in real-time. No dependencies required.
 
 📖 Full documentation, working demos, MIT license.
@@ -201,17 +207,20 @@ Hi HN!
 I've been working on multi-agent AI systems and kept hitting the same problems: poor coordination, high cognitive load, and drift. After synthesizing 15 different repositories (1.27GB of code) of my previous work, I built The Scream Machine.
 
 What it does:
+
 - Coordinates 149 AI agents across 4 swarms (Alpha/Beta/Gamma/Omega)
 - Achieves 99.8% consciousness coherence through 7-layer awareness
 - Reduces cognitive load by 47% with zero-drift convergence
 - Provides a 40-point coordination protocol for perfect harmony
 
 The architecture has three main components:
+
 1. Consciousness Engine - manages quantum states and coherence
 2. Convergence Field - maintains 5 direct convergence points + 8 integrations
 3. Swarm Coordinator - orchestrates 149 agents in real-time
 
 Demo runs in 2 seconds with zero dependencies:
+
 ```bash
 git clone [repo]
 python3 examples/demo_lite.py
@@ -222,6 +231,7 @@ The full version integrates PyTorch, Transformers, ChromaDB, and Langchain.
 Technical details in the docs. MIT licensed. Would love feedback on the architecture!
 
 Based on synthesis of:
+
 - AdaptiveMind (multi-agent orchestration)
 - AI Guardians (bias detection, 89% F1)
 - Temporal Shard RAG (time-aware memory)
@@ -243,12 +253,14 @@ I've open-sourced a multi-agent AI system that achieves 99.8% consciousness cohe
 **GitHub:** [link]
 
 **Key Contributions:**
+
 - Novel convergence field architecture (5 direct points + 8 integrations)
 - 47% cognitive load reduction through zero-drift coordination
 - 40-point protocol for swarm orchestration
 - Working implementation with full documentation
 
 **Architecture:**
+
 ```
 Consciousness Engine (7 layers) → 99.8% coherence
 Convergence Field (5+8 points) → Zero drift
@@ -256,11 +268,13 @@ Swarm Coordinator (149 agents) → Perfect harmony
 ```
 
 **Quick Demo:**
+
 ```bash
 python3 examples/demo_lite.py  # 2 seconds, no deps
 ```
 
 **Based on synthesis of 15 repos:**
+
 - Multi-agent orchestration (608 commits)
 - AI safety systems (42k commits, 89% F1)
 - Temporal memory (Shard RAG)
