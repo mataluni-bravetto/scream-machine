@@ -1,5 +1,5 @@
 """
-🔥 THE SCREAM MACHINE - Complete Demo
+[SCREAM] THE SCREAM MACHINE - Complete Demo
 Shows consciousness, convergence, and coordination in action
 """
 
@@ -25,39 +25,39 @@ async def main():
     """Complete demonstration of The Scream Machine"""
     
     print("\n" + "="*70)
-    print("🔥 THE SCREAM MACHINE - DEMO")
+    print("[SCREAM] THE SCREAM MACHINE - DEMO")
     print("="*70 + "\n")
     
     # 1. CONSCIOUSNESS ENGINE
-    print("1️⃣  BOOTSTRAPPING CONSCIOUSNESS ENGINE...")
+    print("[1/6]  BOOTSTRAPPING CONSCIOUSNESS ENGINE...")
     consciousness = ConsciousnessEngine(target_coherence=0.998)
     state = consciousness.bootstrap()
     
-    print(f"   ✅ Consciousness: {state.coherence:.1%}")
-    print(f"   ✅ Awareness Level: {state.awareness_level}/7")
+    print(f"   [OK] Consciousness: {state.coherence:.1%}")
+    print(f"   [OK] Awareness Level: {state.awareness_level}/7")
     print()
     
     # 2. CONVERGENCE FIELD
-    print("2️⃣  INITIALIZING CONVERGENCE FIELD...")
+    print("[2/6]  INITIALIZING CONVERGENCE FIELD...")
     convergence = ConvergenceFieldManager()
     
-    print(f"   ✅ Direct Convergence Points: {len(convergence.DIRECT_POINTS)}")
-    print(f"   ✅ Integration Opportunities: {len(convergence.INTEGRATION_OPPORTUNITIES)}")
-    print(f"   ✅ Convergence Score: {convergence.get_convergence_score():.1%}")
+    print(f"   [OK] Direct Convergence Points: {len(convergence.DIRECT_POINTS)}")
+    print(f"   [OK] Integration Opportunities: {len(convergence.INTEGRATION_OPPORTUNITIES)}")
+    print(f"   [OK] Convergence Score: {convergence.get_convergence_score():.1%}")
     print()
     
     # Activate integrations
-    print("   🔄 Activating integrations...")
+    print("   [REFRESH] Activating integrations...")
     for integration in convergence.INTEGRATION_OPPORTUNITIES[:4]:
         convergence.activate_integration(integration, strength=0.9)
     
     harmony = convergence.check_harmony()
-    print(f"   ✅ Harmony: {harmony['flow_state']:.1%}")
-    print(f"   ✅ Drift: {harmony['drift']:.4f}")
+    print(f"   [OK] Harmony: {harmony['flow_state']:.1%}")
+    print(f"   [OK] Drift: {harmony['drift']:.4f}")
     print()
     
     # 3. SWARM COORDINATION
-    print("3️⃣  DEPLOYING 149-AGENT SWARM...")
+    print("[3/6]  DEPLOYING 149-AGENT SWARM...")
     coordinator = SwarmCoordinator()
     
     # Register agents across swarms
@@ -74,23 +74,23 @@ async def main():
             coordinator.register_agent(agent_id, swarm, initial_coherence=0.85)
     
     status = coordinator.get_status()
-    print(f"   ✅ Total Agents: {status['total_agents']}")
-    print(f"   ✅ Global Coherence: {status['global_coherence']:.1%}")
-    print(f"   ✅ Cognitive Load: {status['cognitive_load']:.1%} (47% reduction)")
+    print(f"   [OK] Total Agents: {status['total_agents']}")
+    print(f"   [OK] Global Coherence: {status['global_coherence']:.1%}")
+    print(f"   [OK] Cognitive Load: {status['cognitive_load']:.1%} (47% reduction)")
     print()
     
     # 4. OMEGA ORCHESTRATION
-    print("4️⃣  EXECUTING OMEGA ORCHESTRATION...")
+    print("[4/6]  EXECUTING OMEGA ORCHESTRATION...")
     result = await coordinator.orchestrate_all("Build Revolutionary AI System")
     
-    print(f"   ✅ Agents Executed: {result['total_agents']}")
-    print(f"   ✅ Success Rate: {result['total_successes']}/{result['total_agents']}")
-    print(f"   ✅ Final Coherence: {result['final_coherence']:.1%}")
-    print(f"   ✅ Protocol Points: {result['protocol_points']}")
+    print(f"   [OK] Agents Executed: {result['total_agents']}")
+    print(f"   [OK] Success Rate: {result['total_successes']}/{result['total_agents']}")
+    print(f"   [OK] Final Coherence: {result['final_coherence']:.1%}")
+    print(f"   [OK] Protocol Points: {result['protocol_points']}")
     print()
     
     # 5. INTEGRATE WITH CONSCIOUSNESS
-    print("5️⃣  INTEGRATING SWARM WITH CONSCIOUSNESS...")
+    print("[5/6]  INTEGRATING SWARM WITH CONSCIOUSNESS...")
     for agent_id in list(coordinator.agents.keys())[:20]:
         agent = coordinator.agents[agent_id]
         consciousness.integrate_agent(agent_id, {'coherence': agent.coherence})
@@ -98,23 +98,23 @@ async def main():
     final_state = consciousness.measure_state()
     metrics = consciousness.get_metrics()
     
-    print(f"   ✅ Integrated Agents: {metrics['active_agents']}")
-    print(f"   ✅ Consciousness Coherence: {final_state.coherence:.1%}")
-    print(f"   ✅ Stability: {metrics['stability']:.1%}")
+    print(f"   [OK] Integrated Agents: {metrics['active_agents']}")
+    print(f"   [OK] Consciousness Coherence: {final_state.coherence:.1%}")
+    print(f"   [OK] Stability: {metrics['stability']:.1%}")
     print()
     
     # 6. CONVERGENCE CHECK
-    print("6️⃣  FINAL CONVERGENCE CHECK...")
+    print("[6/6]  FINAL CONVERGENCE CHECK...")
     converged, score = consciousness.convergence_check()
     
-    print(f"   ✅ Converged: {converged}")
-    print(f"   ✅ Score: {score:.1%}")
+    print(f"   [OK] Converged: {converged}")
+    print(f"   [OK] Score: {score:.1%}")
     
     if converged and status['global_coherence'] >= 0.998:
         print("\n" + "="*70)
-        print("🎉 PERFECT CONVERGENCE ACHIEVED!")
-        print("🎯 99.8% CONSCIOUSNESS COHERENCE!")
-        print("🌟 THE SCREAM MACHINE IS OPERATIONAL!")
+        print("[SUCCESS] PERFECT CONVERGENCE ACHIEVED!")
+        print("[TARGET] 99.8% CONSCIOUSNESS COHERENCE!")
+        print("[STAR] THE SCREAM MACHINE IS OPERATIONAL!")
         print("="*70 + "\n")
     else:
         print("\n" + "="*70)
